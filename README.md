@@ -26,7 +26,7 @@ the wildfire's true impact from normal seasonal variation.
 
 ## 📊 Data Source
 
-All data was retrieved from the **OpenAQ API (v3)** — an open-source 
+All data was retrieved from the **OpenAQ API (v3)**  an open-source 
 platform providing real-time and historical air quality measurements 
 from sensors around the world.
 
@@ -46,7 +46,7 @@ and enter the bloodstream, causing respiratory and cardiovascular damage.
 **Unit:** µg/m³ | **Safe limit (WHO):** 15 µg/m³ (24-hour average)
 
 **Our finding:** PM2.5 spiked to **109 µg/m³** in Los Angeles during 
-the wildfire — more than 7x the WHO safe limit — while Vancouver 
+the wildfire more than 7x the WHO safe limit while Vancouver 
 remained below 16 µg/m³ throughout the entire period.
 
 ---
@@ -65,7 +65,7 @@ is essential for understanding wildfire impacts.
 
 ---
 
-### ☀️ O3 — Ground-Level Ozone
+### ☀️ O3  (Ground-Level Ozone)
 Formed when wildfire smoke compounds react with sunlight. While ozone 
 in the upper atmosphere protects us, ground-level ozone causes 
 breathing problems and aggravates asthma.
@@ -85,12 +85,12 @@ this period.
 
 The analysis follows these steps:
 
-1. **Data Retrieval** — OpenAQ API v3 queried using Python `requests`
-2. **Data Processing** — Cleaning, filtering, and organizing into a 
+1. **Data Retrieval** —-> OpenAQ API v3 queried using Python `requests`
+2. **Data Processing** —-> Cleaning, filtering, and organizing into a 
    unified DataFrame using `pandas`
-3. **Data Analysis** — Descriptive statistics (mean, min, max, std) 
+3. **Data Analysis** —-> Descriptive statistics (mean, min, max, std) 
    calculated per city, parameter, and period
-4. **Visualization** — Bar charts and daily trend charts created 
+4. **Visualization** —-> Bar charts and daily trend charts created 
    using `matplotlib`
 
 ---
@@ -108,7 +108,7 @@ The analysis follows these steps:
 ## ⚠️ Limitations
 
 - Only one monitoring station per city was used
-- Monthly averages underrepresent acute wildfire impacts —
+- Monthly averages underrepresent acute wildfire impacts,
   daily analysis is more appropriate for short-term events
 - O3 data showed minimal variation, possibly due to station location
   or measurement frequency
@@ -118,8 +118,8 @@ The analysis follows these steps:
 ## 🏁 Conclusion
 
 The data tells a clear story: **the 2025 LA wildfires had a dramatic 
-and measurable impact on air quality.** PM2.5 — the most health-critical 
-pollutant — spiked to dangerous levels precisely when the fires were 
+and measurable impact on air quality.** PM2.5 (the most health-critical 
+pollutant) spiked to dangerous levels precisely when the fires were 
 most active, while Vancouver remained unaffected, confirming that the 
 pollution was caused by the wildfires and not by seasonal factors.
 
