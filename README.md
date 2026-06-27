@@ -1,7 +1,7 @@
 # 🔥 Breathing Through the Smoke: Air Quality Analysis of the 2025 LA Wildfires
 
-## How did one of the most destructive wildfires in California history 
-## change the air that 4 million people breathed?
+ How did one of the most destructive wildfires in California history 
+ change the air that 4 million people breathed?
 
 ---
 
@@ -9,7 +9,7 @@
 
 In January 2025, Los Angeles experienced some of the most devastating 
 wildfires in its history. Beyond the destruction of homes and landscapes, 
-wildfires leave an invisible but deadly legacy — poisoned air.
+wildfires leave an invisible but deadly legacy poisoned air.
 
 This project uses real air quality sensor data to answer a question that 
 affects millions of people:
