@@ -15,8 +15,8 @@ This project uses real air quality sensor data to answer a question that
 affects millions of people:
 
 > **"How did the January 2025 Los Angeles wildfires impact air quality 
-> (PM2.5, CO, and O3) compared to Vancouver — a city unaffected by 
-> wildfires — across the pre-fire (December 2024), during-fire 
+> (PM2.5, CO, and O3) compared to Vancouver (a city unaffected by 
+> wildfires) across the pre-fire (December 2024), during-fire 
 > (January 2025), and post-fire (February 2025) periods?"**
 
 By comparing Los Angeles to Vancouver (our control city), we can isolate 
